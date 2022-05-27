@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    height: 1500px;
+}
+
+body{
+    background-image: url(./首頁/Links/0422_底\ .jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.navbar li{
+    font-size: 12pt;
+    display:inline-block;
+    color: #595757;
+    
+}
+
+li span{
+    margin: 30px;
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.swiper img{
+    width: 100%;
+}
+
+.product1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card{
+    width: 250pt;
+    height: 250pt;
+    transition: all .3s ease;
+}
+
+.card-img{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+.card-body p{
+    color: #595757;
+    font-size: 14pt;
+    margin: 5px;
+    text-align: center;
+}
+
+.line{
+    background-color: #d5d5d5;
+    width: 233px;
+    height: 0.5pt;
+    margin: auto;
+}
+
+.card:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.307);
+}
+
+a{
+    text-decoration: none;
+}
+
+.product2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.item1{
+    width: 580px;
+    margin-right: 40px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.307);
+    transition: all .3s ease;
+
+}
+
+.item1 img{
+    display: block;
+    width: 100%;
+}
+
+.hot1 img,.hot2 img{
+    height: 430px;
+    display: block;
+}
+
+.hot1,.hot2{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.307);
+    transition: all .3s ease;
+}
+
+.hot1{
+    margin-top: 29px;
+}
+
+.item1:hover,.hot1:hover,.hot2:hover{
+    box-shadow: none;
+}
+
+.guide{
+    width: 100%;
+    padding: 100px;
+    margin-top: 150px;
+    background: -webkit-linear-gradient(-45deg,#bfa479bb ,#e6d8b2ba 10%,#b29269c2,#886636ce,#7a5522cb,#886636b4,#e6d8b2c0);
+}
+
+.guide h3{
+    color: #fff;
+    font-size: 30pt;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.guide p{
+    color: #fff;
+    font-size: 14pt;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.guide-icon{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;    
+}
+
+.guide-icon li{
+    display: inline-block;
+    margin-right: 20px;
+}

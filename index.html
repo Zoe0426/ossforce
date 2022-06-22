@@ -10,26 +10,89 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     
     <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/6ebf720ee8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="wrap">
         <nav>
             <div class="logo"><img src="./素材/OSSFORCE logo/4-2.歐馥斯 OSSFORCE Logo_黑色(png).png" alt=""></div>
-            <div class="navbar">
-                <ui>
-                    <li><span>|</span>首頁<span>|</span></li>
-                    <li>探索品牌<span>|</span></li>
-                    <li>暢銷商品<span>|</span></li>
-                    <li>膚質檢測<span>|</span></li>
-                    <li>保養知識<span>|</span></li>
-                    <li>會員禮遇<span>|</span></li>
-                    <li>品牌快訊<span>|</span></li>
-                    <li>好評推薦<span>|</span></li>
-                    <li>登入</li>
-                    <li>購物袋</li>
-                </ui>
-            </div>
+            <ul class="navbar">
+                <li><a href="#">探索品牌</a>
+                    <ul class="dropdown">
+                        <li><a href="#">革新技術</a></li>
+                        <li><a href="#">頂級原料</a></li>
+                        <li><a href="#">關於歐馥斯</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">暢銷商品</a>
+                    <ul class="dropdown">
+                        <li><a href="#">全系列商品</a></li>
+                        <li><a href="#" class="tag">膚質選品</a>
+                            <ul class="dropdown-open">
+                                <li><a href="#">乾性肌膚</a></li>
+                                <li><a href="#">中性肌膚</a></li>
+                                <li><a href="#">油性肌膚</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">膚質檢測</a>
+                    <ul class="dropdown">
+                        <li><a href="#">找到命定保養</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">保養知識</a>
+                    <ul class="dropdown">
+                        <li><a href="#">原料百科</a></li>
+                        <li><a href="#">減法保養</a></li>
+                        <li><a href="#">美肌養成</a>
+                            <ul class="dropdown-open">
+                                <li><a href="#">膚況保養</a></li>
+                                <li><a href="#">肌齡保養</a></li>
+                                <li><a href="#">清潔保養</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">會員禮遇</a>
+                    <ul class="dropdown">
+                        <li><a href="#">加入會員</a></li>
+                        <li><a href="#" class="tag">獨享福利</a>
+                            <ul class="dropdown-open">
+                                <li><a href="#">紅利回饋</a></li>
+                                <li><a href="#">優惠券</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">品牌快訊</a>
+                    <ul class="dropdown">
+                        <li><a href="#">最新活動</a></li>
+                        <li><a href="#">媒體報導</a>
+                            <ul class="dropdown-open">
+                                <li><a href="#">雜誌報導</a></li>
+                                <li><a href="#">節目報導</a></li>
+                                <li><a href="#">媒體文章</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">好評推薦</a></li>
+            </ul>
+            <ul class="navbar-icon">
+                <li><a href="#"><i class="fa-solid fa-user user"></i></a></li><span>登入</span>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a></li><span>購物袋</span>
+            </ul>
         </nav>
+        <div class="fixed">
+        <div class="fixed-wrap">  
+            <li><a href="#"><i class="fa-brands fa-line"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+        </div>      
+        </div>
         <div class="banner">
             <!-- Slider main container -->
             <div class="swiper">
@@ -52,6 +115,8 @@
         </div>
         <div class="product1">
             <div class="card">
+                <div class="top"></div>
+                <div class="top-text">TOP</div>
             <a href="#">
                 <img src="./首頁/Links/舒緩修復精華30ml_(瓶子+盒子).png" alt="" class="card-img">
                 <div class="card-body">
@@ -62,6 +127,8 @@
             </a>
             </div>
             <div class="card">
+                <div class="top"></div>
+                <div class="top-text">TOP</div>
             <a href="#">
                 <img src="./首頁/Links/醒膚前導精華露 100ml _(瓶子+盒子).png" alt="" class="card-img">
                 <div class="card-body">
@@ -72,6 +139,8 @@
             </a>
             </div>
             <div class="card">
+                <div class="top"></div>
+                <div class="top-text">TOP</div>
             <a href="#">
                 <img src="./首頁/Links/舒緩修復精華30ml_(瓶子+盒子).png" alt="" class="card-img">
                 <div class="card-body">
@@ -82,6 +151,8 @@
             </a>
             </div>
             <div class="card">
+                <div class="top"></div>
+                <div class="top-text">TOP</div>
             <a href="#">
                 <img src="./首頁/Links/醒膚前導精華露 100ml _(瓶子+盒子).png" alt="" class="card-img">
                 <div class="card-body">
@@ -94,17 +165,28 @@
         </div>
         <div class="product2">
             <div class="item1">
+            <a href="#">
                 <div class="hot3">
+                <div class="hot"></div>
+                <div class="hot-text">HOT</div>
+                <div class="item-name">時光肌因魔幻精萃</div>
                 <img src="./首頁/Links/0422_HOT_3.jpg" alt="">
                 </div>
+            </a>
             </div>
             <div class="item2">
-                <div class="hot2">
+            <div class="hot2"><a href="#">
+                <div class="hot"></div>
+                <div class="hot-text">HOT</div>
+                <div class="item-name">平衡調理舒緩霜</div>
                 <img src="./首頁/Links/0422_HOT_2.jpg" alt="">
-                </div>
-                <div class="hot1">
+            </a></div>
+            <div class="hot1"><a href="#">
+                <div class="hot"></div>
+                <div class="hot-text">HOT</div>
+                <div class="item-name">煥顏抗老水潤精華</div>
                 <img src="./首頁/Links/0422_HOT_1.jpg" alt="">
-                </div>
+            </a></div>
             </div>
         </div>
         <div class="guide">
@@ -126,8 +208,125 @@
                 <li><img src="./素材/0427_icon/0427_十大無添加icon/png/06-0427_無動物成份.png" alt=""></li>
             </div>
         </div>
-        <div class="info"></div>
-        <footer></footer>
+        <div class="skin">
+            <div class="skin1">
+                <a href="#"><img src="./首頁/Links/0422_shutterstock_1424778398.jpg" alt="" class="skin-test"></a>
+                <a href="#"><div class="symbo1">膚質檢測</div></a>
+                <div class="symbo1-mark">」</div>
+            </div>
+            <div class="skin2">  
+                <div class="symbo2-mark">「</div>
+                <a href="#"><div class="symbo2">美顏知識</div></a>
+                <a href="#"><img src="./首頁/Links/0422_shutterstock_1069168520.jpg" alt="" class="skin-know"></a>
+            </div>
+        </div>
+        <div class="service">
+            <li><img src="./素材/0427_icon/0427_服務icon/png/-01_0427_快速到貨.png" alt=""><p id="icon-text">快速到貨</p></li>
+            <li><img src="./素材/0427_icon/0427_服務icon/png/-02_0427_滿額免運.png" alt=""><p>滿額免運</p></li>
+            <li><img src="./素材/0427_icon/0427_服務icon/png/-03_0427_會員福利.png" alt=""><p>會員福利</p></li>
+            <li><img src="./素材/0427_icon/0427_服務icon/png/-04_0427_多項金流.png" alt=""><p>多項金流</p></li>
+            <li><img src="./素材/0427_icon/0427_服務icon/png/-05_0427_代客下單.png" alt=""><p>代客下單</p></li>
+        </div>
+        <div class="service-line"></div>
+        <div class="info">
+            <ul class="infobar">
+                <li><a href="#">探索品牌</a>
+                    <ul class="infodropdown">
+                        <li><a href="#">革新技術</a></li>
+                        <li><a href="#">頂級原料</a></li>
+                        <li><a href="#">關於歐馥斯</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">暢銷商品</a>
+                    <ul class="infodropdown">
+                        <li><a href="#">全系列商品</a></li>
+                        <li><a href="#" class="tag">膚質選品</a>
+                            <ul class="infodropdown-open">
+                                <li><a href="#">乾性肌膚</a></li>
+                                <li><a href="#">中性肌膚</a></li>
+                                <li><a href="#">油性肌膚</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">膚質檢測</a>
+                    <ul class="infodropdown">
+                        <li><a href="#">找到命定保養</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">保養知識</a>
+                    <ul class="infodropdown">
+                        <li><a href="#">原料百科</a></li>
+                        <li><a href="#">減法保養</a></li>
+                        <li><a href="#">美肌養成</a>
+                            <ul class="infodropdown-open">
+                                <li><a href="#">膚況保養</a></li>
+                                <li><a href="#">肌齡保養</a></li>
+                                <li><a href="#">清潔保養</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">會員禮遇</a>
+                    <ul class="infodropdown">
+                        <li><a href="#">加入會員</a></li>
+                        <li><a href="#" class="tag">獨享福利</a>
+                            <ul class="dropdown-open">
+                                <li><a href="#">紅利回饋</a></li>
+                                <li><a href="#">優惠券</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">品牌快訊</a>
+                    <ul class="infodropdown">
+                        <li><a href="#">最新活動</a></li>
+                        <li><a href="#">媒體報導</a>
+                            <ul class="infodropdown-open">
+                                <li><a href="#">雜誌報導</a></li>
+                                <li><a href="#">節目報導</a></li>
+                                <li><a href="#">媒體文章</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">好評推薦</a></li>
+                <li><a href="#">常見問題</a>
+                    <ul class="infodropdown">
+                        <li><a href="#">產品常見問題</a></li>
+                        <li><a href="#">購物常見問題</a></li>
+                        <li><a href="#">配送相關問題</a></li>
+                        <li><a href="#">退貨及退款說明</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">客戶服務</a>
+                    <ul class="infodropdown">
+                        <li><a href="#">會員福利</a></li>
+                        <li><a href="#">服務條款</a></li>
+                        <li><a href="#">隱私政策</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <footer>
+        <div class="footer-wrap">  
+            <ul class="add">
+                <li>公司地址：新北市汐止區新台五路一段99號16樓之11</li>
+                <li>公司電話：0800-58-1234</li>
+                <li>傳真：02-2697-1933</li>
+            </ul>
+            <ul class="email">
+                <li>email：service@ossforcebio.com</li>
+                <li>客服時間：9:00-17:00</li>
+            </ul>
+        </div>
+        <ul class="media-icon">
+            <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-line"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>      
+        </footer>
     </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
